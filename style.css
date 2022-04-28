@@ -1,0 +1,68 @@
+*{
+  font-family: 'Nunito', sans-serif;
+}
+html{
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+body{
+  background-image: linear-gradient(#6772c2, #c95151);
+}
+main {
+  width: 45%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background:#CC0000;
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 12px 12px 22px black;
+  border-radius: 30px;
+}
+section {
+  min-height: 30rem;
+  border: 2px solid blue;
+  background:rgb(151, 171, 214);
+  width: 80%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+.btn{
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 25%;
+  background-color: #6772c2;
+  color: #fefdfd;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn:hover{
+  background: #ecdd7d;
+  border: 4px solid;
+  color: rgb(41, 39, 39);
+}
+img {
+  width: 45%;
+  height: auto;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.types {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.hide {
+  display: none;
+}
+.pokeName{
+  text-align: center;
+}
+.title{
+  text-align: center;
+  color: #ecdd7d;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}

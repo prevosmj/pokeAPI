@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PokéDex</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- content here -->
+    <main>
+      <h1 class="title"><strong>RandomDex</strong></h1>
+      <section class="pokemon-entry">
+        <header>
+          <h2 id="poke-name" class="pokeName"></h2>
+
+          <div class="types">
+            <span><strong>ID:</strong> #</span><span id="id-num"></span>
+          </div>
+          <div class="types">
+            <span><strong>Primary Type</strong>: </span><span id="type-one"></span>
+          </div>
+          <div class="types">
+            <span><strong>Secondary Type: </strong></span><span id="type-two"></span>
+          </div>
+
+          <img id="front-image" src="" alt="Front Sprite">
+          <img id="back-image" src="" alt="No Back Sprite">
+          <div class="stats">
+            <span><strong>Weight</strong>: </span><span id="poke-weight"></span>
+            <span><strong>Height</strong>: </span><span id="poke-height"></span>
+          </div>
+        </header>
+      </section>
+      <div style="display: flex; justify-content: center;">
+        <button class="btn" onclick="getPokemon()">Catch Em All!</button>
+      </div>
+    </main>
+
+    <!-- content ends -->
+    <!-- script loading -->
+    <script src="main.js" charset="utf-8"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  </body>
+</html>
